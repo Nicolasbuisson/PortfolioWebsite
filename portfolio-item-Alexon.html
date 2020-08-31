@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nicolas' Portfolio: Alexon Landing Page</title>
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source
+        +Sans+Pro:300,900&display=swap*" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="return-link">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="return-arrow">
+                    <path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm3 5.753l-6.44 5.247 6.44 5.263-.678.737-7.322-6 7.335-6 .665.753z"/>
+                </svg>
+            </a>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro section__title title__portfolio__item">
+                Personal Project <strong> Alexon Landing Page</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/Alexon3.PNG" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <div class="portfolio-item-individual-flex-container">
+                <p>Alexon is an up and coming artist that specializes in filmmaking, photography, and photoshop. 
+                    I created this page to showcase Alexon's work.</p>
+                <img src="img/AlexonArtist.jpg" class="AlexonArtist__img">
+            </div>
+            <p>You can find the page <a href="https://nicolasbuisson.github.io/AlexonLandingPage/">here</a></p>
+            <p>For this page, I used both the grid and flex layouts to create a well structured and responsive website.</p>
+            <p>I opted for a simple black and white design to not distract the viewer's attention away from the artist's creations.</p>
+            <p>I am aware that the video does not load correctly onto the website. I had to upload it using Git LFS due to its large size.
+                 I believe this is the cause of the issue but I am still working to resolve it.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:nicolas.buisson@mail.mcgill.ca" class="footer__link">nicolas.buisson@mail.mcgill.ca</a>
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href = "https://github.com/Nicolasbuisson">
+                        <!-- <i class="fab fa-github"></i> -->
+                        <img src="img/iconmonstr-github-1-64.png" alt="" class="icon">
+                    </a>
+                </li>
+                <!-- linkedin -->
+                <li class="social-list__item">
+                    <a class="social-list__link" href = "https://www.linkedin.com/in/nicolasbuisson99/">
+                        <!-- <i class="fab fa-linkedin"></i> -->
+                        <img src="img/iconmonstr-linkedin-3-64.png" alt="" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+    <script src="js/index.js"></script>
+    </body>
+</html>
